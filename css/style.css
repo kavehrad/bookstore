@@ -1,0 +1,278 @@
+@font-face {
+  font-family: Vazir;
+  src: url("../font/Vazir.eot") format("eot");
+  src: url("../font/Vazir.ttf") format("ttf");
+  src: url("../font/Vazir.woff") format("woff");
+  src: url("../font/Vazir.woff2") format("woff2");
+}
+body {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Vazir;
+  background-color: antiquewhite;
+}
+.header {
+  background-image: url(../images/banner-1557834_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 10px;
+}
+.logo {
+  width: 4%;
+  float: left;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.img-responsive {
+  width: 100%;
+}
+.img-curve {
+  border-radius: 15px;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 2%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #eee9e9;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.9s ease;
+}
+.active {
+  background-color: #0b03ec88;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 2;
+  }
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+  color: #ff6b81;
+  font-size: 1.7rem;
+}
+.text-left {
+  text-align: left;
+}
+.text-white {
+  color: white;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: #ff6b81;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff4757;
+}
+
+.btn {
+  padding: 1.5%;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #030303;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: rgb(7, 7, 7);
+  background-color: #a9a9a9;
+}
+h2 {
+  color: #2f3542;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+/* CSS for product */
+.product {
+  padding: 2% 0;
+}
+.box-3 {
+  width: 20%;
+  float: right;
+  margin: 6.6%;
+}
+.description {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  font-size: 1rem;
+}
+.price {
+  font-size: 1.5rem;
+  text-align: center;
+  border-style: double;
+  background-color: #860e0ec5;
+  color: #ffea2e;
+  padding: 1%;
+}
+.detail {
+  font-size: 1rem;
+  color: #000000;
+}
+.footer {
+  text-align: center;
+  background-color: #dededd;
+  margin: 3%;
+  border-radius: 25px;
+}
+.text-footer {
+  font-size: 1.2rem;
+  padding: 0.01%;
+  color: #000000;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 7%;
+    float: none;
+    margin: 1% auto;
+  }
+  .text-center {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff6b81;
+  }
+  .btn {
+    padding: 1.5%;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+  .btn-primary {
+    background-color: #030303;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    color: rgb(7, 7, 7);
+    background-color: #a9a9a9;
+  }
+  .product {
+    padding: 20% 0;
+    width: 80%;
+    margin: auto;
+  }
+  h2 {
+    margin-bottom: 10%;
+  }
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+    padding-top: 10%;
+  }
+  .text-footer {
+  font-size: 1rem;
+  padding: 0.01%;
+  color: #000000;
+}
+}
+
+@media only screen and (max-width: 450px) {
+  .logo {
+    width: 7%;
+    float: none;
+    margin: 1% auto;
+  }
+  .text-center {
+    text-align: center;
+    font-size: 0.6rem;
+    color: #ff6b81;
+  }
+  .btn {
+    padding: 1.5%;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+  .btn-primary {
+    background-color: #030303;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    color: rgb(7, 7, 7);
+    background-color: #a9a9a9;
+  }
+  .product {
+    padding: 20% 0;
+    width: 80%;
+    margin: auto;
+  }
+  h2 {
+    margin-bottom: 10%;
+  }
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+    padding-top: 10%;
+  }
+  .text-footer {
+  font-size: 0.7rem;
+  padding: 0.01%;
+  color: #000000;
+}
+}
